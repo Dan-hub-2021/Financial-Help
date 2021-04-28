@@ -1,0 +1,17 @@
+#vue {
+  padding: 2em;
+  display: grid;
+  justify-content: left;
+  grid-template-columns: 500px 500px 500px;
+  column-gap: 25px;
+  row-gap: 50px;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #111818;
+}
+/*# sourceMappingURL=services.css.map */

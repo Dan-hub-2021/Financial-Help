@@ -1,0 +1,23 @@
+#vue {
+    padding: 2em;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: left;
+    -ms-grid-columns: 500px 500px 500px;
+        grid-template-columns: 500px 500px 500px;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
+    row-gap: 50px;
+  }
+  
+  #services {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(17, 24, 24)
+  
+  
+  }

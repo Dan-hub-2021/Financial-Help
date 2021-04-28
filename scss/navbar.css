@@ -1,0 +1,30 @@
+.mynav {
+  background-image: url(../images/money1.jpg);
+  height: 25px;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar:hover {
+  background-color: 0, 0, 0, 0, 3;
+}
+
+.navbar .navbar-brand {
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 1.3em;
+  padding-left: 25px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 right;
+}
+
+.navbar .nav-item a {
+  color: #FFF !important;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=navbar.css.map */

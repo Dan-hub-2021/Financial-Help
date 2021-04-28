@@ -1,0 +1,26 @@
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tera{
+    border: 2px solid green;
+    width: 380px;
+  
+  }
+  input[type=text] {
+    border: 2px solid green;
+    width: 380px;
+  }
+  
+  input[type=email] {
+    border: 2px solid green;
+    width: 380px;
+  }
+  
+  .row{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  

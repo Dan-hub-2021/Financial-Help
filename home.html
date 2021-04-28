@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https:cssgradient.io">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/onchange.js"></script>
+
+    <title>Home</title>
+</head>
+<body class="mynav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="images/2021.jpg" alt="year" width="125">
+                </div>
+                    <a class="navbar-brand" href="home.html">Financial Round Table</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    <header>
+        <div class="jumbotron">
+            <h1 class="display-4">Sharing Financial Solution and Advice to All</h1>
+            <p class="lead">During a time of uncertainty, can we all say we have a plan for the future or a solution to our financial problms? That where we can help if you want more please come and spend some time with us and lets make the path to security </p>
+        
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+        </div>
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img id="current1" src="images/past1.jpg" alt="past"  width="250" height="250">
+                                <h5 class="card-title">Past</h5>
+                                <p class="card-text">The history of our families can shape who we will become but what if we can adjust some of the old thinking and pivot to those lessons to financial freedom.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img id="current2" src="images/past.jpg"  alt="present"  width="250" height="250">
+                                <h5 class="card-title">Present</h5>
+                                <p>Is the current you able to retire comfortably and not worry about the next day?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img id="current3" src="images/rv.jpg"  alt="future"  width="250" height="250">
+                                <h5 class="card-title">Future</h5>
+                                <p>You can now relax and enjoy all those years of hard work.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section class="topics">
+            <H1 id="services">Topics</H1>
+            <div class="topic1">
+                <a href="services.html"><h3>Services</h3></a>
+                <img src="images/typewriter/goals.jpg" alt="goals" width="250" height="250">
+                <p id="topic1">We offer many types of financial services to all stages of life. We can start with planning a budget or a child college fund. We welcome an clients no matter the age group</p> <br>
+            </div>
+            <div class="topic2">
+                <a href="news.html"><h3>News</h3></a>
+                <img src="images/typewriter/news.jpg" alt="news"  width="250" height="250">
+                <p id="topic1">We offer the latest news that will impact your financial health and offer insights into what you need</p>
+            </div>
+            <div class="topic3">
+                <a href="contacts.html"><h3>Contacts</h3></a>
+                <img src="images/typewriter/bookmarks.jpg" alt="contacts" width="250" height="250">
+                <p id="topic1">Fill out our contact list and we will contact you within hours and see what best fits your needs.</p>
+            </div>
+        </section> 
+        
+        <main class='main-header'>
+            <form action="/contact" method="post">
+                <fieldset class="radios">
+                    <legend class="coninfo">Contact Information</legend>
+                    <label>Enter you Full Name</label><br>
+                    <input type="text" name="name" placeholder="John Doe"><br>
+                    <label>Enter your Email</label><br>
+                    <input type="email" name="email" placeholder="johndoe@gmail.com"><br>
+                    <label>Enter your phone</label><br>
+                    <input type="text" name="phone" placeholder="xxx-xxx-xxxx"><br>
+                    <button class="hb">click here</button><br>
+                </fieldset>
+            </form>
+        </main>
+
+    <div>
+        <div class="row">
+            <div class="col">
+                <div class="card ">
+                    <div class="card-body text-center">
+                        <div id="mission">
+                            <span class="missionstatment"> Our mission for our client to help you navagate though the mistries of the financial world so you can feel safe and comfortable once you reach your retirement age. </span>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <div class="card-body text-center">
+                        <a href="services.html">Services</a><br>
+                        <a href="news.html">News</a><br>
+                        <a href="contacts.html">Contacts</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <a href="https://en.wikipedia.org/wiki/FAQ">FAQ</a><br>
+                        <a href="https://www.tutorialspoint.com/javascript/javascript_cookies.htm">Cookies</a><br>
+                        <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="Address">
+                            <span>Address:</span>
+                            <span>123 Main St.</span>
+                            <span>Irvine, CA 92608</span>
+                        </div>
+                        <div class="phone">
+                            <span>Phone:</span>
+                            <span>(800)555-5555</span>
+                        </div>
+                        <div class="email">
+                            <span>Email:</span>
+                            <span>info@FinRoundTab.com</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>   
+            <div id="nondisclaimer">            
+                <div class="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                </div>          
+            </div>        
+                <div id="disclaimer">
+                    <p>This website is designed and created solely for Financial Round Table. All contents are for individual who are interested in their financial health.</p>
+                </div>
+        </footer>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </body>
+        <div class="copy">&copy; Copyright 2021</div>
+        <a href="#">Jump to top</a>
+</html>
